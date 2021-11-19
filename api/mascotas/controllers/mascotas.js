@@ -11,7 +11,7 @@ module.exports = {
         if(!Nombre || !Raza || !Sexo){
             ctx.response.status = 400;
             ctx.response.body = {
-                message: 'Faltan datos'
+                message: 'Faltan datos requeridos'
             }
         }else{
             const raza = await strapi.services.razas.findOne({nombre_raza: Raza});
@@ -34,7 +34,7 @@ module.exports = {
                         Edad = new Date(actualYear - Año, actualMonth, actualDay + 1);
                     }
             }
-            
+
             const mascota = await strapi.services.mascotas.create({
                 Nombre,
                 Raza: raza.id,
