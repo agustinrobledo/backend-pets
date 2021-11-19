@@ -26,6 +26,9 @@
     },
     "Raza": {
       "model": "razas"
+    },
+    "Aproximado": {
+      "type": "boolean"
     }
   }
 }
