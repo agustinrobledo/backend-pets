@@ -16,4 +16,6 @@ Para inicializar el servidor. Una vez ejecutado esto ya deberia de ser posible h
 <strong> /razas <strong> <br>
 <strong> /mascotas <strong>
 
-
+En el caso de que se necesite pueden acceder al panel admin con el <br>
+email: agustinrobledo59.ar@gmail.com <br>
+contraseña: Petsbackend1  
